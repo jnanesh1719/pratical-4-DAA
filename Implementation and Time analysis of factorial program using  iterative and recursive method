@@ -1,0 +1,19 @@
+# Factorial using Iterative Method
+
+def factorial_iterative(n):
+    fact = 1
+
+    for i in range(1, n + 1):
+        fact = fact * i
+
+    return fact
+
+
+# Input
+n = int(input("Enter a number: "))
+
+# Function Call
+result = factorial_iterative(n)
+
+# Output
+print(f"Factorial of {n} using Iterative Method is: {result}")
